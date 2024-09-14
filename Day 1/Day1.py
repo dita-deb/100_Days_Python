@@ -29,12 +29,3 @@ glass1, glass2 = glass2, glass1
 name = "Dita"  #want to have meaningful named variables to look back onto otherwise confusion
 length = len(name)
 print(length)  #commenting code would be a good habit to have as well
-
-
-#Band Name Generator 
-#Building the Band Generator
-print("Welcome to Band Name Generator!")                    #Print welcome prompt
-city = input("What's the name of city you grew up in?\n")   #define the input as a variable city
-pet_name= input("What's your pet's name?\n")                #define the input as a variable pet_name
-print("Your band name could be " + city + " " + pet_name)   #concatente city and pet_name into the displayed result
-
