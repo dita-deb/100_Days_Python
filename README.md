@@ -1,2 +1,4 @@
-# 100_Days_Python
-100 Days of Code Python Challenge
+# 100 Days of Python Challenge 
+Each day will contain challenges to strengthen my Python coding skills. 
+
+Day 1: The Beginning 
