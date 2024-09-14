@@ -1,4 +1,4 @@
-## Day 1: The Beginning & Band Name Generator
+## Day 1: Working with Variables in Python to Manage Data & Band Name Generator
 ### Will contain the following
 - Pledge Taken
 - How to effectively study and practice
