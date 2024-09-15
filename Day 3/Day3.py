@@ -53,3 +53,82 @@ else:                    #If the bmi is 25 (including) or over, print out "overw
     print("overweight")
 
 # Multiple Ifs
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
+bill = 0
+
+if height >= 120:
+    print("You can ride the rollercoaster")
+    age = int(input("What is your age? "))
+    if age <= 12:                          #This is the first nested if-statement.      
+        print("Child tickets are $5.")
+        bill = 5
+    elif age <= 18:
+        print("Youth tickets are $7.")
+        bill = 7
+    else:
+        print("Adult tickets are $12.")
+        bill = 12
+
+    wants_photo = input("Do you want to have a photo taken? Type y for Yes and n for No. ")
+    if wants_photo == "y":                 #This If-statement follows the next if statement in the same indent
+        bill += 3
+    print(f"Your final bill is ${bill}.")
+else:
+    print("Sorry you have to grow taller before you can ride.")
+
+# Python Pizza Delivery 
+print("Welcome to Python Pizza Deliveries!")
+size = input("What size pizza do you want? S, M or L: ")
+pepperoni = input("Do you want pepperoni on your pizza? Y or N: ")
+extra_cheese = input("Do you want extra cheese? Y or N: ")
+bill = 0
+
+if size == "S":             #First check the size conditions
+    bill =15
+elif size == "M":
+    bill =20
+else:
+    bill =25
+
+if pepperoni == "Y":
+    if size == "S":         #Size s pepperoni is different than m and l
+        bill += 2
+    else:                   #Pepperoni on M and L options
+        bill += 3
+
+if extra_cheese == "Y":     #Extra cheese on any pizza size
+    bill += 1
+
+print(f"Your final bill is: ${bill}.")
+
+#Multiple Conditions and Logical Operators
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
+bill = 0
+
+if height >= 120:
+    print("You can ride the rollercoaster!")
+    age = int(input("What is your age? "))
+    if age < 12:
+        bill = 5
+        print("Child tickets are $5.")
+    elif age <= 18:
+        bill = 7
+        print("Youth tickets are $7.")
+    elif age >= 45 and age <= 55:       #multiple conditions can also be ( 45<= age >=55 )
+        print("Everything is going to be ok. Have a free ride on us!")
+        bill = 0
+    else:
+        bill = 12
+        print("Adult tickets are $12.")
+
+    wants_photo = input("Do you want a photo taken? Y or N. ")
+    if wants_photo == "Y":
+        bill += 3
+
+    print(f"Your final bill is ${bill}")
+
+else:
+    print("Sorry, you have to grow taller before you can ride.")
+
