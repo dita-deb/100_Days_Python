@@ -4,4 +4,5 @@
 - Lists
 - Banker Roulette
 - Index Error
+- Pig Latin Translator
 - Rock Paper Scissors Game
