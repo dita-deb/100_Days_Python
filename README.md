@@ -7,4 +7,5 @@ Each day will contain challenges to strengthen my Python coding skills.
 - Day 4: Randomisation and Python Lists - Rock Paper Scissors Game
 - Day 5: Python Loops - Password Generator
 - Day 6: Python Functions & Karel - Escaping the Maze
+- Day 7: Hangman
 - 
