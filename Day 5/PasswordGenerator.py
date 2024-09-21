@@ -32,9 +32,9 @@ for char in range(0, nr_symbols):
 for char in range(0, nr_numbers):
     password_list.append(random.choice(numbers))
 
-print(password_list)                        #prints characters in list in the sections orderly (like easy mode)
+#print(password_list)                       #prints characters in list in the sections orderly (like easy mode)
 random.shuffle(password_list)               #shuffles the characters in the list
-print(password_list)                        #prints the shuffled list
+#print(password_list)                       #prints the shuffled list
 
 password = ""
 for char in password_list:                  #converting back into a string using a for loop
