@@ -49,6 +49,3 @@ elif user_choice > computer_choice:
     print("You win!")       # (user) scissors > paper > rock (pc)
 elif computer_choice == user_choice:
     print("It's a draw!")   # same choice means draw
-
-
-
