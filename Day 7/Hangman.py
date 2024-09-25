@@ -13,7 +13,7 @@ print(logo)
 
 # Randomly choose a word from the word list
 chosen_word = random.choice(word_list)
-print(chosen_word)  # Print the chosen word for debugging (can be removed for actual gameplay)
+#print(chosen_word)  # Print the chosen word for debugging (can be removed for actual gameplay)
 
 # Create a placeholder string of underscores with the same length as the chosen word
 placeholder = ""
