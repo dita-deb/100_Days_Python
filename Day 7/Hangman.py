@@ -77,3 +77,4 @@ while not game_over:
 
     # Print the current hangman stage based on the number of remaining lives
     print(stages[lives])
+    
