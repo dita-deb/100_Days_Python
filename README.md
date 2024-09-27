@@ -8,4 +8,5 @@ Each day will contain challenges to strengthen my Python coding skills.
 - Day 5: Python Loops - Password Generator
 - Day 6: Python Functions & Karel - Escaping the Maze
 - Day 7: Hangman
+- Day 8: Function Parameters & Caesar Cipher
 - 
