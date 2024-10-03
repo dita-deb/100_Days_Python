@@ -111,7 +111,7 @@ def caesar(original_text, shift_amount, encode_or_decode):
 
 # Variable to control the loop
 should_continue = True
-
+ 
 # Running a loop to repeatedly ask for input and perform encoding/decoding
 while should_continue:
     # Taking user inputs for direction, message, and shift
