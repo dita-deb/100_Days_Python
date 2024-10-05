@@ -9,7 +9,7 @@ Each day will contain challenges to strengthen my Python coding skills.
 - Day 6: Python Functions & Karel - Escaping the Maze
 - Day 7: Hangman
 - Day 8: Function Parameters & Caesar Cipher
-- Day 9:
+- Day 9: Dictionaries, Nesting & the Secret Auction
 - Day 10:
 - Day 11:
 - Day 12:
