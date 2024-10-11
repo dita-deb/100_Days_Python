@@ -10,7 +10,7 @@ Each day will contain challenges to strengthen my Python coding skills.
 - Day 7: Hangman
 - Day 8: Function Parameters & Caesar Cipher
 - Day 9: Dictionaries, Nesting & the Secret Auction
-- Day 10:
+- Day 10: 
 - Day 11:
 - Day 12:
 - Day 13:
