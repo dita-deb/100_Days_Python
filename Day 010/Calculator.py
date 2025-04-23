@@ -1,6 +1,6 @@
 import art
 
-# functions defining common operations
+# Functions defining common operations
 def addition(n1, n2):
     return n1 + n2
 
@@ -23,8 +23,8 @@ operations = {
 
 # Building the actual calculator
 def calculator():
-    print(art.logo)                                     #print the art logo immediately
-    should_accumulate = True                            #default accumulate values from initial startup
+    print(art.logo)                                     # Print the art logo immediately
+    should_accumulate = True                            # Default to accumulate values from initial startup
     n1 = float(input("What is the first number?: "))
 
     while should_accumulate:
@@ -37,11 +37,11 @@ def calculator():
 
         choice = input(f"Type 'y' to continue calculating with {answer}, or type 'n' to start a new calculation: ")
 
-        if choice == "y":
+        if choice == "y":               # User wants to use the answer as the new n1 and continue calculations 
             n1 = answer
         else:
             should_accumulate = False
-            print("\n" * 20)            # if new calculations have it show 20 blank lines and restart calculator
+            print("\n" * 20)            # If new calculations have it show 20 blank lines and restart calculator
             calculator()
 
 calculator()
